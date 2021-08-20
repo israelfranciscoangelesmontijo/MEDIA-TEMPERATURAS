@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main(void)
+{
+    int arr[30]={20,20,15,30,14,29,8,24,19,26,28,22,22,25,24,3,31,33,18,22,21,20,26,24,14,15,16,18,20,20};
+    int cuenta,temperaturas;
+    float media;
+    temperaturas=0;
+    for(cuenta=1;cuenta<31;cuenta++)
+    
+    temperaturas=temperaturas+arr[cuenta];
+    media=temperaturas/30.00;
+    printf("EL VALOR DE LA MEDIA ES=%1.2f",media);
+    return 0;
+    
+}
